@@ -1,6 +1,5 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend ,DiDjango,DiNodejsSmall,DiMongodb,DiMysql} from 'react-icons/di';
-import{FiServer} from 'react-icons/Fi'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
