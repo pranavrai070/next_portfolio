@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Threads Clone',
-    description: "Using Next.js, MongoDB, I created a threds app clone that skyrocketed to 100 million sign-ups in less than 5 days, and dethroned giants like Twitter, ChatGPT, and TikTok to become the fastest-growing app ever",
+    description: "Using Next.js, MongoDB, I created a threads app clone that skyrocketed to 100 million sign-ups in less than 5 days, and dethroned giants like Twitter, ChatGPT, and TikTok to become the fastest-growing app ever",
       image: '/images/1.png',
       tags: ['Mongo', 'Next', 'TypeScript'],
     source: 'https://github.com/pranavrai070/threads_app',
