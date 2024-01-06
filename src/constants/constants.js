@@ -35,6 +35,15 @@ export const projects = [
     visit: 'https://nike-landing-page-omega.vercel.app/',
     id: 3,
   },
+  {
+    title: 'GraphQL Blog',
+    description: "With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this is fully responsive Blog App and what's best of all is that you or each and every member of an organization can manage the blog from a dedicated Content Management System.",
+    image: '/images/5.png',
+    tags: ['Next', 'TailWind', 'GraphQL'],
+    source: 'https://github.com/pranavrai070/blog_app',
+    visit: 'https://blog-app-self-iota.vercel.app/',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
