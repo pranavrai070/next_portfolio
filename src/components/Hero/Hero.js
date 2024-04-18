@@ -16,7 +16,7 @@ const Hero = (props) => (
         <SectionText>
         The purpose of this portfolio to show all my skills and works together in a simple and efficient manner.
         </SectionText>
-        <Link href="https://drive.google.com/file/d/1jOWXj-3Xoj2J1DXMZ4EcGSGKd4onteJn/view?usp=sharing" legacyBehavior>
+        <Link href="https://drive.google.com/file/d/1LALuhCo8j-wfw3_STZXCfn2Oe-2Viv-Z/view?usp=sharing" legacyBehavior>
         <a target='blank'><Button onClick={props.handleClick}>Checkout Resume</Button></a>
         </Link>
       
