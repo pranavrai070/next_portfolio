@@ -1,5 +1,8 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend ,DiDjango,DiNodejsSmall,DiMongodb,DiMysql} from 'react-icons/di';
+import { SiNextdotjs,SiThreedotjs,SiMui } from "react-icons/si";
+import { FaCss3,FaGitAlt,FaChrome  } from "react-icons/fa";
+import { TbBrandFramerMotion } from "react-icons/tb";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -15,6 +18,8 @@ const Technologies = () =>  (
       <ListItem>
         <picture>
           <DiReact size="3rem" />
+          {" "}
+          <SiNextdotjs size="3rem"/>
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
@@ -49,6 +54,48 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             dtabases like SQL and MongoDB
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FaCss3 size="3rem" />
+          {" "}
+          <SiMui size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Styling</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            CSS and Material UI
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiThreedotjs size="3rem" />
+          {" "}
+          <TbBrandFramerMotion size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Libraries</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            libraries like Framer Motion and Three.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FaGitAlt size="3rem" />
+          {" "}
+          <FaChrome  size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Tools</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            tools like Git and Chrome Developer Tools
           </ListParagraph>
         </ListContainer>
       </ListItem>
